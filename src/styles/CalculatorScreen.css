@@ -1,0 +1,18 @@
+.calculator-screen {
+  padding: 2em;
+  height: 30%;
+  min-height: 30%;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-screen .display {
+  margin-top: auto;
+  font-size: 80px;
+  color: white;
+  cursor: pointer;
+  max-width: 60%;
+  overflow-x: auto;
+}

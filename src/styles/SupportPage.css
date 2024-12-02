@@ -1,0 +1,219 @@
+.support-page-container {
+  background-color: black;
+  color: white;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em;
+}
+
+.support-page-container > h1 {
+  border-bottom: 1px solid white;
+  padding-bottom: 0.5em;
+}
+
+.support-page-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+}
+
+.support-page-form input {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.support-page-form input:focus {
+  outline: none;
+  border-color: orange;
+}
+
+.form-leftside {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 49%;
+}
+
+.form-name-outer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label {
+  font-size: 20px;
+}
+
+.description {
+  position: relative;
+}
+
+.form-name {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.form-name-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.form-name-detail > label {
+  color: #b6b6c2;
+}
+
+.form-name-detail input {
+  padding: 8px;
+}
+
+.form-email {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-email input {
+  padding: 8px;
+}
+
+.form-topic {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-topic-detail {
+  padding: 20px;
+
+  border-style: dotted;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-topic-detail p {
+  font-size: 18px;
+}
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#general,
+#bug {
+  color: white;
+  width: 10px;
+  height: 10px;
+}
+
+.form-rightside {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 49%;
+}
+
+#form-description {
+  flex: 1;
+  padding: 8px;
+  resize: none;
+  border-color: white;
+  font-family: "Times New Roman", Times, serif;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+
+  &:focus {
+    outline: none;
+    border-color: orange;
+  }
+}
+
+#send-ticket {
+  width: max-content;
+  margin-top: 8px;
+  padding: 20px 28px;
+  border-radius: 20px;
+  align-self: flex-end;
+  background-color: #ffa500;
+  color: white;
+  font-size: 20px;
+}
+
+.alert-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#send-ticket {
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#send-ticket:disabled {
+  cursor: not-allowed;
+}
+
+.success-ticket-message {
+  margin-top: 2em;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.success-ticket-message > h2 {
+  color: orange;
+  font-size: 30px;
+}
+
+.success-ticket-message > span {
+  color: #758694;
+  font-size: 20px;
+}
+
+#ticket-number {
+  color: white;
+}
+
+.optional {
+  position: absolute;
+  top: -8px;
+  color: gray;
+  margin-left: 5px;
+  font-size: 0.7em;
+}
+
+.required {
+  color: red;
+  margin-left: 3px;
+}

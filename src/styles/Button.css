@@ -1,0 +1,35 @@
+.button {
+  background-color: #888;
+  border: none;
+  color: white;
+  font-size: 2em;
+  aspect-ratio: 1;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 100%;
+}
+
+.operator {
+  background-color: #ffa500;
+  color: white;
+}
+
+.equals {
+  padding: 25px;
+  background-color: #ffa500;
+  grid-column: span 2;
+  border-radius: 40px;
+  aspect-ratio: unset;
+}
+
+.zero {
+  padding: 25px;
+  grid-column: span 2;
+  border-radius: 40px;
+  aspect-ratio: unset;
+}
+
+.support {
+  background-color: #966919;
+}
